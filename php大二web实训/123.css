@@ -1,0 +1,525 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(49,160,253);
+}
+li{
+    list-style-type: none;
+}
+#top
+{
+    width: 1280px;
+    height: 100px;
+    margin: 0 auto;
+    background: rgb(21,55,118) ;
+    position: relative;
+}
+.top_left
+{ 
+    width: 282px;
+    height: 65px;
+    margin: 50px;
+    margin-top: 20px;
+    position: absolute;
+}
+.top_right
+{
+    font-size: 30px;
+    margin: 500px;
+    margin-top: 50px;
+    font-family: 'Times New Roman', Times, serif; 
+    color: white;
+    position: absolute;
+    
+}
+#header{
+    width: 1280px;
+    height: 50px;
+    margin: 0px auto;
+    /* border: 1px solid darkred; */
+    position: relative;
+    background: blue;
+}
+.navigation{
+    width: 1280px;
+    height: 50px;
+    background-color: #FF8400;
+    position: absolute; 
+}
+.navigation li{
+    float: left;
+}
+.navigation a{
+    display: inline-block;
+    font-size: 18px;
+    color: white;
+    /* margin: 10px 5px; */
+    width: 180px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    padding-left: 20px;
+    font-family: "Times New Roman",Georgia,Serif;
+}
+.box{
+    display: block;
+    width: 1280px;
+    height: 200px;
+    margin: 0 auto;
+}
+.box ul{
+   display: block;
+    width: 1280px;
+    height: 200px;
+    overflow: hidden;
+    transition:all 0.5s;
+}
+.box li{
+    display: none;
+    width: 1280px;
+    height: 200px;
+}
+li img{
+    display: block;
+    width: 1280px;
+    height: 200px;
+}
+#button-1:checked~ul li:nth-child(1),
+#button-2:checked~ul li:nth-child(2),
+#button-4:checked~ul li:nth-child(4),
+#button-3:checked~ul li:nth-child(3)
+{
+    display: block;
+}
+label{
+    position: relative;
+    top: -20px;
+    left: 30px;
+    display: inline-block;
+    width:20px;
+    height: 20px;
+    background: red;
+    cursor: pointer;
+    margin-left: 30px;
+    text-align: center;
+}
+ #middle{
+     width: 1280px;
+     height: 700px;
+     margin: 0 auto;
+     position: relative;
+   
+ }
+ .middle_left1{
+     width: 200px;
+     height: 150px;
+     position: absolute;
+ }
+ .delu{
+    margin-left: 10px;
+    background: #FF8400;
+    width: 60px;
+    color:white;
+    font-weight: 800;
+    border: none;
+    
+ }
+ #delu3{
+    margin-left: 10px;
+    background: #FF8400;
+    width: 60px;
+    color:white;
+    font-weight: 800;
+    border: none;
+    float: left;
+    margin-top: 3px;
+ }
+ .box input
+ {
+     display: none;
+ }
+ .middle_left2
+ {
+    width: 200px;
+    height: 600px;
+    margin-top: 30px;     
+ }
+ .middle_left2 ul li
+ {
+     margin-top: 10px;
+     color: rgb(48,102,183);
+     font-size: 14px;
+     font-family: 'Times New Roman', Times, serif;
+     color: white;
+     margin-top: 30px;
+ }
+ .middle_right2
+ {
+    width: 1000px;
+    height: 800px;
+    position: absolute;
+    margin-left:278px; 
+ 
+ }
+ .middle_right21
+ {
+     width: 1000px;
+     height: 230px;
+    
+ }
+ .zhaung1
+ {
+     margin-left: 400px;
+     font-size: 25px;
+     color: rgb(185,114,228);
+ }
+
+.qw
+{  
+    width: 200px;
+    height: 150px;
+    background: url(x5.jpg) no-repeat;
+    float: left;
+    margin: 15px 50px;
+    
+}
+.qe{
+    width: 260px;
+    height: 150px;
+    background: url(x6.jpg) no-repeat;
+    float: left;
+    margin: 15px 50px;
+}
+.qr
+{
+    width: 154px;
+    height: 150px;
+    background: url(x7.jpg) no-repeat;
+    float: left;
+    margin: 15px 50px;
+}
+.qww
+{ 
+    width: 200px;
+    margin-top: 150px;
+    background: rgb(77,161,126);
+    color: white;
+    text-align: center;
+}
+.qww a
+{
+  display: inline-block;
+  color: white;
+}
+.qee
+{ 
+    width: 260px;
+    margin-top: 150px;
+    background: rgb(77,161,126);
+    color: white;
+    text-align: center;
+}
+.qee a
+{
+  display: inline-block;
+  color: white;
+}
+.qrr
+{ 
+    width: 154px;
+    margin-top: 150px;
+    background: rgb(77,161,126);
+    color: white;
+    text-align: center;
+}
+.qrr a
+{
+  display: inline-block;
+  color: white;
+}
+ .middle_right22
+ {
+     width: 1000px;
+     height: 230px;
+
+ }
+ .middle_right23
+ {
+     width: 1000px;
+     height: 230px;
+
+ }
+ .qh
+ {
+    width: 200px;
+    height: 150px;
+    background: url(47.jpg) no-repeat;
+    float: left;
+    margin: 15px 50px;
+ }
+ .qhh
+ {
+    width: 200px;
+    margin-top: 150px;
+    background: rgb(77,161,126);
+    color: white;
+    text-align: center;
+ }
+ .qx
+ {
+    width:225px;
+    height: 150px;
+    background: url(48.jpg) no-repeat;
+    float: left;
+    margin-right: 60px;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 50px;
+ }
+ .qxx
+ {
+    width:225px;
+    margin-top: 150px;
+    background: rgb(77,161,126);
+    color: white;
+    text-align: center;
+ }
+ .ql
+ {
+    width:225px;
+    height: 150px;
+    background: url(423.jpg) no-repeat;
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 90px;
+    margin-right: 20px;
+ }
+ .qll
+ {
+    width:225px;
+    margin-top: 150px;
+    background: rgb(77,161,126);
+    color: white;
+    text-align: center;
+ }
+ .qq
+ {
+    width:225px;
+    height: 150px;
+    background: url(v5.jpg) no-repeat;
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 50px;
+    margin-right: 20px;
+ }
+ .qqo
+ {
+    width:192px;
+    margin-top: 150px;
+    background: rgb(77,161,126);
+    color: white;
+    text-align: center;
+ }
+.lp
+{
+    width:225px;
+    height: 150px;
+    background: url(v8.jpg) no-repeat;
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 70px;
+    margin-right: 20px;
+
+}
+.lpp
+{
+    width:200px;
+    margin-top: 150px;
+    background: rgb(77,161,126);
+    color: white;
+    text-align: center;
+}
+.we
+{
+    width:225px;
+    height: 150px;
+    background: url(v6.jpg) no-repeat;
+    float: left;
+    margin-top: 15px;
+    margin-right: 15px;
+    margin-left: 70px;
+    margin-right: 20px;
+}
+.wee
+{
+    width:225px;
+    margin-top: 150px;
+    background: rgb(77,161,126);
+    color: white;
+    text-align: center;
+}
+#zuihou
+{
+    width: 1280px;
+    height: 130px;
+    margin: 0 auto;
+    background: rgb(19,51,110);
+    position: relative;
+   
+}
+.ti
+{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 500px;
+    margin-top: 30px;
+    margin-left: 350px;
+    position: absolute;
+}
+.ty
+{
+    text-align: center;
+    font-size: 14px;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-weight: 500px;
+    margin-top: 70px;
+    margin-left: 400px;
+    position: absolute;
+}
+.yyo
+{
+    margin:100px;
+}
+.ioio
+{
+    width: 500px;
+    height: 300px;
+    margin: 200px;
+    position: absolute;
+}
+.op
+{
+    width: 500px;
+    height: 200px;
+    border: 2px solid blue;
+}
+.od
+{
+    width: 500px;
+    height: 200px;
+    border: 2px solid blue;
+    margin-top: 5px;
+}
+ .lkl
+{
+    width: 50px;
+    height: 30px;
+    margin-left: 40px;
+
+   
+}
+.lkl2
+{
+    width: 50px;
+    height: 30px;
+    margin-left: 40px;
+}
+.zhaung8
+{
+    margin-left: 200px;
+    font-size: 25px;
+    color: rgb(185,114,228);
+}
+.one12
+{
+    margin: 25px;
+    color: rgb(21,55,118);
+}
+.one123
+{
+    margin: 25px;
+    color: rgb(21,55,118);
+}
+.poi
+{
+    width: 1280px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.plo
+{
+    text-align: center;
+}
+.poiu
+{
+   margin-left: 900px;
+    
+}
+.poki
+{
+    font-size: 18px;
+    color: rgb(24,44,66);
+}
+.ghy
+{
+    width: 400px;
+    height: 300px;
+    background: rgb(75,85,96);
+    margin: 300px 750px;
+    position: absolute;
+    opacity:0.7;
+    
+}
+.thr
+{   width: 1980px;
+    height: 929px;
+    background: url("jia1.jpg") no-repeat;
+    margin: 0 -300px;
+    position: relative;
+    overflow: hidden;
+}
+.oiu
+{
+    width: 200px;
+    height: 25px;
+    margin-top: 30px;
+}
+.oiy
+{
+    width: 200px;
+    height: 25px;
+    margin-top: 20px;
+    margin-left: 54px;
+}
+.qqq
+{
+    margin-left: 150px;
+    background: rgb(69,136,248);
+    width: 120px;
+    color:white;
+    font-weight: 800;
+    border: none;
+    margin-top: 20px;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;  
+ }
+ .tinghaol
+ {
+     width: 678px;
+     height: 146px;
+     margin-left: 650px;
+     margin-top: 200px;
+     position: absolute;
+ }
